@@ -1,0 +1,31 @@
+{
+  "name": "next-text",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.0.2",
+    "@sweetalert2/theme-dark": "^5.0.15",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "apexcharts": "^3.40.0",
+    "bootstrap": "5.2",
+    "bootstrap-icons": "^1.10.5",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "perfect-scrollbar": "^1.5.5",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1",
+    "sweetalert2": "^11.7.10",
+    "typescript": "5.0.4"
+  }
+}
