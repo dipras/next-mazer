@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# Next Mazer
 
-First, run the development server:
+</div>
+
+<div align="center">
+
+![All Contributors](https://img.shields.io/github/contributors/dipras/next-mazer.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/dipras/next-mazer.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/dipras/next-mazer.svg)
+[![License](https://img.shields.io/github/license/dipras/next-mazer.svg)](**LICENSE**)
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/zuramai/mazer">Mazer</a> <b>Nuxt</b> is an Admin Dashboard Template that can help you develop faster. Made with Bootstrap 5. No jQuery dependency with Nuxt 3 + TypeScript.
+</p>
+
+## Table of contents
+
+- [Next Mazer](#next-mazer)
+  - [Table of contents](#table-of-contents)
+  - [Installation Guide](#installation-guide)
+  - [Build Setup](#build-setup)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Installation Guide
+
+You may need to use Node.js v14.18.0 or above to continue with Next Mazer installation guide.
+## Build Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# clone the repository
+$ git clone https://github.com/dipras/next-mazer
+
+# navigate to the folder
+$ cd next-mazer
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After clone the repository and navigate to the folder, you can use few commands below
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# install package
+$ npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-## Learn More
+# build and start
+$ npm run build
+$ npm run start
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For detailed explanation on how things work, check out [Nextjs](https://nextjs.org).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+See Contributing Guide [here](./CONTRIBUTING.md)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next Mazer is under GPLv2 License.
